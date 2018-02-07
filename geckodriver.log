@@ -251,3 +251,14 @@ console.error: PushService:
 console.error: PushService: 
   stateChangeProcessEnqueue: Error transitioning state
   UnknownError
+1518017145040	geckodriver	INFO	geckodriver 0.19.1
+1518017145043	geckodriver	INFO	Listening on 127.0.0.1:53773
+1518017146164	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.hutlJdN8jn1N"
+1518017147173	Marionette	INFO	Enabled via --marionette
+1518017150327	Marionette	INFO	Listening on port 37789
+1518017150378	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+[Child 12698, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
