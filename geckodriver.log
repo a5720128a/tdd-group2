@@ -141,3 +141,113 @@ console.error: PushService:
 1517404899745	Marionette	WARN	TLS certificate errors will be ignored for this session
 1517404901045	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
 [Child 936, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518012854046	geckodriver	INFO	geckodriver 0.19.1
+1518012854064	geckodriver	INFO	Listening on 127.0.0.1:40075
+1518012855178	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8Z63sM8wPbLC"
+1518012856730	Marionette	INFO	Enabled via --marionette
+1518012860604	Marionette	INFO	Listening on port 41893
+1518012860694	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+[Child 5949, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5949, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518012939725	geckodriver	INFO	geckodriver 0.19.1
+1518012939729	geckodriver	INFO	Listening on 127.0.0.1:55915
+1518012940868	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gAkrqVxMn81k"
+1518012941931	Marionette	INFO	Enabled via --marionette
+1518012945153	Marionette	INFO	Listening on port 39743
+1518012945188	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+[Child 6178, Chrome_ChildThread] WARNING: pipe error (23): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6178, Chrome_ChildThread] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6178, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518013002808	geckodriver	INFO	geckodriver 0.19.1
+1518013002811	geckodriver	INFO	Listening on 127.0.0.1:59839
+1518013003927	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3TgM39ejmEhH"
+1518013004949	Marionette	INFO	Enabled via --marionette
+1518013008296	Marionette	INFO	Listening on port 42093
+1518013008342	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+[Child 6387, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518013060450	geckodriver	INFO	geckodriver 0.19.1
+1518013060453	geckodriver	INFO	Listening on 127.0.0.1:58509
+1518013061546	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aRKVnIAR7Pni"
+1518013062571	Marionette	INFO	Enabled via --marionette
+1518013065785	Marionette	INFO	Listening on port 34145
+1518013065861	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+[Child 6595, Chrome_ChildThread] WARNING: pipe error (21): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6595, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518013437907	geckodriver	INFO	geckodriver 0.19.1
+1518013437910	geckodriver	INFO	Listening on 127.0.0.1:42171
+1518013439026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.maeoNCcgFR8G"
+1518013440547	Marionette	INFO	Enabled via --marionette
+1518013444014	Marionette	INFO	Listening on port 39095
+1518013444045	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+[Child 7002, Chrome_ChildThread] WARNING: pipe error (21): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7002, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518013602938	geckodriver	INFO	geckodriver 0.19.1
+1518013602941	geckodriver	INFO	Listening on 127.0.0.1:51745
+1518013604033	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aYwTfVVtpNSP"
+1518013605016	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource://onboarding/onboarding.js, line 18: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIStringBundle.GetStringFromName]
+1518013608556	Marionette	INFO	Listening on port 40871
+1518013608647	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+[Child 7254, Chrome_ChildThread] WARNING: pipe error (24): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7254, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518013672928	geckodriver	INFO	geckodriver 0.19.1
+1518013672932	geckodriver	INFO	Listening on 127.0.0.1:36751
+1518013674049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gnNE6OtZ0j9l"
+1518013674988	Marionette	INFO	Enabled via --marionette
+1518013678228	Marionette	INFO	Listening on port 35763
+1518013678262	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+[Child 7464, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7464, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518016804246	geckodriver	INFO	geckodriver 0.19.1
+1518016804249	geckodriver	INFO	Listening on 127.0.0.1:55339
+1518016805361	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kpuhGXkC8ppj"
+1518016806535	Marionette	INFO	Enabled via --marionette
+1518016809934	Marionette	INFO	Listening on port 41817
+1518016809979	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+[Child 11988, Chrome_ChildThread] WARNING: pipe error (23): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 11988, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1518016887379	geckodriver	INFO	geckodriver 0.19.1
+1518016887383	geckodriver	INFO	Listening on 127.0.0.1:46649
+1518016888476	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.JBBtqMipojMD"
+1518016889358	Marionette	INFO	Enabled via --marionette
+1518016892661	Marionette	INFO	Listening on port 42367
+1518016892695	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+[Child 12224, Chrome_ChildThread] WARNING: pipe error (21): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12224, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-iXzMln/firefox-58.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1518016940282	geckodriver	INFO	geckodriver 0.19.1
+1518016940284	geckodriver	INFO	Listening on 127.0.0.1:33563
+1518016941379	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.A3vUBHiciqgw"
+1518016942351	Marionette	INFO	Enabled via --marionette
+1518016945540	Marionette	INFO	Listening on port 37271
+1518016945601	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
